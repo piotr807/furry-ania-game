@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(186, 243, 235);
+}
+
+#board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;  
+}
+
+#board div {
+ width: 60px;
+ height: 60px;
+ border: 1px black solid;
+ float: left;
+ background-color: seashell;
+}
+section#params {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 0;
+    background-color: seashell;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 200px;
+    
+}
+
+.ania {
+    background-image: url('../img/ania.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.potato {
+    background-image: url('../img/potato.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
